@@ -1,0 +1,17 @@
+{
+  "_comment": "Это временная заглушка каталога для тестирования. Перед стабильном релизом данные будут заменены настоящими.",
+  "catalogVersion": 1,
+  "lastUpdated": "2026-07-20T12:00:00Z",
+  "sources": [
+    {
+      "id": "dtf-deleted-comments",
+      "name": "DTF Удалённые комментарии",
+      "description": "Автоматическое восстановление удалённых комментариев в ветках DTF через сервер-архиватор.",
+      "author": "Команда reDTF",
+      "manifestUrl": "github:re-dtf/source-deleted-comments",
+      "icon": "https://example.com/icon.png",
+      "tags": ["dtf", "comments", "archive"],
+      "verified": true
+    }
+  ]
+}
