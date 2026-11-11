@@ -1,0 +1,48 @@
+{
+  "manifestVersion": 1,
+  "id": "dtfrandomizer-archive",
+  "name": "Архив удалённых комментариев от Nikos",
+  "description": "Публичный архив удалённых комментариев от Nikos, использующий открытый API dtfrandomizer.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Source by reDTF Team & API by Nikos",
+    "url": "https://dtf.ru/id1713592"
+  },
+  "homepage": "https://www.dtfrandomizer.xyz",
+  "tags": ["comments", "archive", "dtf"],
+  "api": {
+    "baseUrl": "https://api.dtfrandomizer.xyz/api"
+  },
+  "auth": {
+    "type": "none"
+  },
+  "permissions": [
+    {
+      "id": "mutate:comments:restore",
+      "target": "dtf",
+      "description": "Восстановление текста удалённых комментариев из архива",
+      "required": true
+    }
+  ],
+  "endpoints": {
+    "getRestoredComments": {
+      "label": "Архив комментариев",
+      "description": "Получает сохранённые копии комментариев поста",
+      "path": "/comments/post/{postId}",
+      "method": "GET",
+      "paged": false,
+      "timeoutMs": 12000,
+      "mapping": {
+        "items": "data",
+        "emptyStatuses": [404],
+        "fields": {
+          "id": { "from": "id", "as": "number" },
+          "authorId": { "from": "data.user.id", "as": "number" },
+          "content": { "from": "data.text", "as": "string" },
+          "media": { "from": "data.media" }
+        }
+      }
+    }
+  },
+  "responseFormat": "mapped"
+}
