@@ -1,16 +1,14 @@
 {
-  "_comment": "Это временная заглушка каталога для тестирования. Перед стабильном релизом данные будут заменены настоящими.",
   "catalogVersion": 1,
-  "lastUpdated": "2026-07-20T12:00:00Z",
+  "lastUpdated": "2026-11-11T23:32:00Z",
   "sources": [
     {
-      "id": "dtf-deleted-comments",
-      "name": "DTF Удалённые комментарии",
-      "description": "Автоматическое восстановление удалённых комментариев в ветках DTF через сервер-архиватор.",
-      "author": "Команда reDTF",
-      "manifestUrl": "github:re-dtf/source-deleted-comments",
-      "icon": "https://example.com/icon.png",
-      "tags": ["dtf", "comments", "archive"],
+      "id": "dtfrandomizer-archive",
+      "name": "Архив удалённых комментариев от Nikos",
+      "description": "Публичный архив удалённых комментариев от Nikos, использующий открытый API dtfrandomizer.",
+      "author": "Source by reDTF Team & API by Nikos",
+      "manifestUrl": "https://raw.githubusercontent.com/re-dtf/source-catalog/main/sources/dtfrandomizer-archive.json",
+      "tags": ["comments", "archive"],
       "verified": true
     }
   ]
