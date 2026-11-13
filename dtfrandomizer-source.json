@@ -1,12 +1,12 @@
 {
   "manifestVersion": 1,
   "id": "dtfrandomizer-archive",
-  "name": "Архив удалённых комментариев от Nikos",
-  "description": "Публичный архив удалённых комментариев от Nikos, использующий открытый API dtfrandomizer.",
+  "name": "Архив удалённых комментариев Dtfrandomizer",
+  "description": "Публичный архив удалённых комментариев, использующий открытый API dtfrandomizer. Большое спасибо пользователю Nikos за создание и поддержку этого API.",
   "version": "1.0.0",
   "author": {
-    "name": "Source by reDTF Team & API by Nikos",
-    "url": "https://dtf.ru/id1713592"
+    "name": "DonnerTech (reDTF team)",
+    "url": "https://github.com/DonnerTechDev"
   },
   "homepage": "https://www.dtfrandomizer.xyz",
   "tags": ["comments", "archive", "dtf"],
