@@ -4,9 +4,9 @@
   "sources": [
     {
       "id": "dtfrandomizer-archive",
-      "name": "Архив удалённых комментариев от Nikos",
-      "description": "Публичный архив удалённых комментариев от Nikos, использующий открытый API dtfrandomizer.",
-      "author": "Source by reDTF Team & API by Nikos",
+      "name": "Архив удалённых комментариев Dtfrandomizer",
+      "description": "Публичный архив удалённых комментариев, использующий открытый API dtfrandomizer. Большое спасибо пользователю Nikos за создание и поддержку этого API.",
+      "author": "DonnerTech (reDTF team)",
       "manifestUrl": "https://raw.githubusercontent.com/re-dtf/source-catalog/refs/heads/main/dtfrandomizer-source.json",
       "tags": ["comments", "archive"],
       "verified": true
